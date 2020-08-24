@@ -25,7 +25,7 @@ while True:
     parms = dict()
     parms['address'] = address
     if api_key is not False: parms['key'] = api_key
-    print(urllib.parse.urlencode(parms))
+    
     url = serviceurl + urllib.parse.urlencode(parms)
 
     print('Retrieving', url)
@@ -38,7 +38,6 @@ while True:
     except:
         js = None
 
-    
     if not js or 'status' not in js or js['status'] != 'OK':
         print('==== Failure To Retrieve ====')
         print(data)
