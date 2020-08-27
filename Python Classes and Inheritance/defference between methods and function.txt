@@ -1,0 +1,5 @@
+function: function is which has a body. We call that function when we need to perform a specific task.
+
+method: methods are just like functions but the methods are defined into a class. 
+	
+** there is one difference between methods and functions is that methods always have at least one argument and that first argument is "self".
