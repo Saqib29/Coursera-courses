@@ -1,0 +1,10 @@
+in  python 3 all kind characters are string whether it different country character.
+-> the byte string and regular string are same but the unicode string and regular string are same.
+-> In Python3 all strings are internally UNICODE.
+
+	while True:
+     bytes---> 	data = mysock.rev(512)
+		if (len(data) < 1):
+			break
+   Unicode--->	mystring = data.decode()  <---- UTF-8 or SCII
+		print(mystring)
